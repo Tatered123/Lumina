@@ -1,0 +1,40 @@
+body {
+    background-image: url('images/Background.png'); /* path to my background */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+}
+
+
+.playnow { /*this will afect all buttons that you interact with on the index page */
+    top: 450px;
+    left: 890px;
+    position: absolute;
+    z-index: 2;
+    background-color: lightblue; /* Replace with your desired background color */
+    color: black; /* Text color */
+    padding: 3px 10px; /* Adjust padding to your liking */
+    font-size: 13px; /* Adjust font size to your liking */
+    border: none; /* Remove border */
+    border-radius: 25px; /* Optional: Add border-radius for rounded corners */
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    text-align: center;
+}
+
+.playnow:hover {
+    transform: scale(1.3);
+}
+
+.heading {
+    color:white;
+    font-size: 45px;
+    font-family: monospace;
+    font-weight: bold;
+    position: absolute;
+    left: 25px;
+    top: 110px;
+    text-align: center;
+}
