@@ -47,13 +47,14 @@ a {
     color: white;
     font-family: monospace;
     left: 100px;
+    top: 70px;
     text-align: center;
 }
 
 #qwhyus { /*Put stuff like font size and Bold or not */
-    
+    font-size: 24px;
 }
 
 #awhyus { /*Put stuff like font size and Bold or not */
-
+    font-size: 16px;
 }
