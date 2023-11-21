@@ -42,3 +42,7 @@ a {
     text-decoration: none; /* Remove underline */
     color: #333;
 }
+
+footer {
+    background-color: white;
+}
