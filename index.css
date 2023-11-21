@@ -1,5 +1,5 @@
 body {
-    background-image: url('/Images/Background.png'); /* path to my background */
+    background-image: url('/Images/logoimg.png'); /* path to my background */
     background-size: cover;
     background-position: center;
     margin: 0;
@@ -46,6 +46,7 @@ a {
 .whyus {
     color: white;
     font-family: monospace;
+    position: absolute;
     left: 100px;
     top: 70px;
     text-align: center;
