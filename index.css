@@ -46,10 +46,12 @@ a {
 .whyus {
     color: white;
     font-family: monospace;
+    left: 100px;
+    text-align: center;
 }
 
 #qwhyus { /*Put stuff like font size and Bold or not */
-
+    
 }
 
 #awhyus { /*Put stuff like font size and Bold or not */
