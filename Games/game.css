@@ -12,8 +12,8 @@ body {
 }
 
 .game-button {
-    width: 250px; /* Set your desired button width */
-    height: 250px; /* Set your desired button height */
+    width: 225px; /* Set your desired button width */
+    height: 175px; /* Set your desired button height */
     background-color: #3498db; /* Set your desired button color */
     color: #fff;
     border: 1px solid #2980b9;
