@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Set your desired background color */
+}
+
+.button-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px; /* Adjust margin as needed */
+}
+
+.game-button {
+    width: 50px; /* Set your desired button width */
+    height: 50px; /* Set your desired button height */
+    background-color: #3498db; /* Set your desired button color */
+    color: #fff;
+    border: 1px solid #2980b9;
+    cursor: pointer;
+}
