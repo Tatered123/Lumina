@@ -63,7 +63,7 @@ a {
 #logoimg {
     width: 35px;
     height: 35px;
-    background-image: url('path/to/your/image.jpg');
+    background-image: url('/Images/logoimg.png');
     background-size: cover;
     background-repeat: no-repeat;
     color: #ffffff;
