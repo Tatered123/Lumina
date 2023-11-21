@@ -8,7 +8,7 @@ body {
 .button-row {
     display: flex;
     justify-content: space-between;
-    margin: 100px; /* Adjust margin as needed */
+    margin: 60px; /* Adjust margin as needed */
 }
 
 .game-button {
@@ -20,6 +20,8 @@ body {
     cursor: pointer;
     transition: transform 0.3s;
     border: none;
+    border-radius: 15px;
+    margin: 35px;
 }
 
 .game-button:hover {
