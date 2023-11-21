@@ -21,6 +21,8 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease;
     text-align: center;
+    color: black;
+    text-decoration: none;
 }
 
 .playnow:hover {
