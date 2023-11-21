@@ -61,8 +61,8 @@ a {
 }
 
 #logoimg {
-    width: 50px;
-    height: 50px;
-    background: url('/Images/logoimg.png');
+    width: 200px;
+    height: 200px;
+    background-image: url('/Images/logoimg.png');
     border: none;
 }
