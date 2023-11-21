@@ -8,11 +8,11 @@ body {
 .button-row {
     display: flex;
     justify-content: space-between;
-    margin: 35px; /* Adjust margin as needed */
+    margin: 100px; /* Adjust margin as needed */
 }
 
 .game-button {
-    width: 225px; /* Set your desired button width */
+    width: 200px; /* Set your desired button width */
     height: 175px; /* Set your desired button height */
     background-color: #3498db; /* Set your desired button color */
     color: #fff;
