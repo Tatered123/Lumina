@@ -63,4 +63,6 @@ a {
 #logoimg {
     width: 50px;
     height: 50px;
+    background: url('/Images/logoimg.png');
+    border: none;
 }
