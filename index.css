@@ -47,15 +47,15 @@ a {
     color: white;
     font-family: monospace;
     position: absolute;
-    left: 910px;
-    top: 590px;
+    left: 890px;
+    top: 615px;
     text-align: center;
 }
 
 #qwhyus { /*Put stuff like font size and Bold or not */
-    font-size: 48px;
+    font-size: 42px;
 }
 
 #awhyus { /*Put stuff like font size and Bold or not */
-    font-size: 36px;
+    font-size: 24px;
 }
