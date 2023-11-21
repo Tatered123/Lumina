@@ -61,8 +61,14 @@ a {
 }
 
 #logoimg {
-    width: 200px;
-    height: 200px;
-    background-image: url('/Images/logoimg.png');
+    width: 35px;
+    height: 35px;
+    background-image: url('path/to/your/image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #ffffff;
+    padding: 10px 20px;
     border: none;
+    border-radius: 5px;
+    cursor: pointer;
 }
