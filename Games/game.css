@@ -8,7 +8,7 @@ body {
 .button-row {
     display: flex;
     justify-content: space-between;
-    margin: 10px; /* Adjust margin as needed */
+    margin: 5px; /* Adjust margin as needed */
 }
 
 .game-button {
