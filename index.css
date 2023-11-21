@@ -43,7 +43,15 @@ a {
     color: #333;
 }
 
-footer {
-    background-color: white;
-    top: 100%;
+.whyus {
+    color: white;
+    font-family: monospace;
+}
+
+#qwhyus { /*Put stuff like font size and Bold or not */
+
+}
+
+#awhyus { /*Put stuff like font size and Bold or not */
+
 }
