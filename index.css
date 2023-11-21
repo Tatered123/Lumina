@@ -21,8 +21,6 @@ body {
     cursor: pointer;
     transition: transform 0.3s ease;
     text-align: center;
-    color: black;
-    text-decoration: none;
 }
 
 .playnow:hover {
@@ -38,4 +36,9 @@ body {
     left: 25px;
     top: 110px;
     text-align: center;
+}
+
+a {
+    text-decoration: none; /* Remove underline */
+    color: #333;
 }
