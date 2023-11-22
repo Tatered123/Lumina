@@ -12,13 +12,12 @@ body {
 
 .game-button {
     width: 200px; /* Set your desired button width */
-    height: 175px; /* Set your desired button height */
+    height: 160px; /* Set your desired button height */
     background-color: #3498db; /* Set your desired button color */
     color: #fff;
     border: 1px solid #2980b9;
     cursor: pointer;
     transition: transform 0.3s;
-    transition: border 0.3s;
     border: none;
     border-radius: 15px;
     margin: 35px;
