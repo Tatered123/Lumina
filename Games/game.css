@@ -20,7 +20,6 @@ body {
     transition: transform 0.3s;
     border: none;
     border-radius: 15px;
-    margin: 35px;
 }
 
 .game-button:hover {
