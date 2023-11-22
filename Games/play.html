@@ -10,16 +10,5 @@
 <!-- Define the iframe -->
 <iframe id="gameIframe" width="600" height="400" src="" frameborder="0"></iframe>
 
-<!-- Include the script -->
-<script>
-  // Get the link from the query parameter
-  const urlParams = new URLSearchParams(window.location.search);
-  const link = urlParams.get('link');
-
-  // Set the iframe src attribute
-  const iframe = document.getElementById('gameIframe');
-  iframe.src = link || 'https://lumina-cove.vercel.app/Games/';
-</script>
-
 </body>
 </html>
