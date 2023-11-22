@@ -11,7 +11,7 @@
 
     <!-- Row 1 -->
 	<div class="button-row">
-		<a href=""><button class="game-button" id="">1</button></a>
+		<a href="/Games/play.html"><button class="game-button" id="sws">1</button></a>
 		<a href=""><button class="game-button" id="">2</button></a>
 		<a href=""><button class="game-button" id="">3</button></a>
 		<a href=""><button class="game-button" id="">4</button></a>
@@ -36,6 +36,19 @@
 	</div>
 	
     <!-- Add more rows as needed -->
+
+	<script>
+		// remove the link at the end and replce it with the game
+		document.getElementById('sws').addEventListener('click', () => updateIframe('https://www.pramuwaskito.org/game/subway/'));
+		document.getElementById('button2').addEventListener('click', () => updateIframe('page2.html'));
+		document.getElementById('button3').addEventListener('click', () => updateIframe('page3.html'));
+	  
+		// Function to update the iframe src attribute
+		function updateIframe(link) {
+		  // Send the link as a query parameter to the iframe page
+		  window.location.href = `iframe.html?link=${encodeURIComponent(link)}`;
+		}
+	  </script>
 
 </body>
 </html>
